@@ -1,0 +1,13 @@
+<h2>Búsquedas</h2>
+<hr>
+<ul class="list-group">
+    <!--To add the classes only when the URL matches the link exactly [routerLinkActiveOptions]-->
+    <li routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true}" class="list-group-item">
+        Buscar país</li>
+
+    <li routerLink="region" routerLinkActive="active" class="list-group-item">
+        Por región
+    </li>
+
+    <li routerLink="capital" routerLinkActive="active" class="list-group-item">Por capital</li>
+</ul>
